@@ -27,7 +27,6 @@
     <div class="container">
     <form>
         <div>
-            <label>Input : </label><br/>
             <input name="star" type="number" placeholder="Input number!">
         </div>
         <div>
