@@ -3,4 +3,4 @@ Setting database sebagai berikut
 <br/>
   Nama database : insoft
 <br/>
-  Nama table : books(BOOKID, BOOKNAME)
+  Nama table : books ( BOOKID, BOOKNAME )
