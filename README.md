@@ -1,4 +1,4 @@
 # insoft CRUD
-Setting database sebagai berikut :
-  Nama database : insoft
-  Nama table : books(BOOKID, BOOKNAME)
+Setting database sebagai berikut
+  Nama database : insoft ;
+  Nama table : books(BOOKID, BOOKNAME) ;
