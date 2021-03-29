@@ -1,4 +1,4 @@
-# insoft pre_interview
+# insoft pre_interview test
 
 1. Buat function CRUD untuk table 'books' dengan field : BOOKID, BOOKNAME
 2. Buat function untuk mengetahui berapa banyak kata/words yang terdapat dalam suatu variable.
