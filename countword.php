@@ -30,7 +30,7 @@
         <br/>
             <input name="word" type="text" placeholder="Input Text!">
             <button>Submit</button>
-            <button href="countword.php">Reset</button>
+            <button href="countwords.php">Reset</button>
         </div>        
     </form>
 <?php
