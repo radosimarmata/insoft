@@ -30,6 +30,7 @@
         <br/>
             <input name="word" type="text" placeholder="Input Text!">
             <button>Submit</button>
+            <button href="countword.php">Reset</button>
         </div>        
     </form>
 <?php
@@ -40,10 +41,11 @@
     with this advantages I sharpen my ability in the field of programming as a web development front-end and back-end.
     Let me know if we can work together :)";
 
-    echo "<br/><p align=justify>$pcx</p><br/>";
+    $word = @$_GET['word'];
+    echo "<br/><p align=justify>$pcx.$word</p><hr/>";
 
-	$word = @$_GET['word'];
-	$wc = str_word_count($pcx);
+	
+	$wc = str_word_count($pcx.$word);
     $strlen = strlen($pcx);
 	echo "Number of words : $wc <br/>";
     echo "Number of letters : $strlen";
