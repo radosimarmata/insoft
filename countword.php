@@ -30,7 +30,7 @@
         <br/>
             <input name="word" type="text" placeholder="Input Text!">
             <button>Submit</button>
-            <button href="countwords.php">Reset</button>
+            <button href="countword.php">Reset</button>
         </div>        
     </form>
 <?php
@@ -46,7 +46,7 @@
 
 	
 	$wc = str_word_count($pcx.$word);
-    $strlen = strlen($pcx);
+    $strlen = strlen($pcx.$word);
 	echo "Number of words : $wc <br/>";
     echo "Number of letters : $strlen";
 ?>
