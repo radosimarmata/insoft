@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     
-    <title>Insoft CRUD</title>
+    <title>Insoft</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,8 +25,17 @@
         </div>
     </nav>
     <div class="container">
+    <form>
+        <div>
+            <label>Input : </label><br/>
+            <input name="star" type="number" placeholder="Input number!">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
     <?php
-        $star=10;
+        $star=@$_GET['star'];
         for($a=$star;$a>0;$a--){
         for($b=$star;$b>=$a;$b--){
             echo "*";
