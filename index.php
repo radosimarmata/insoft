@@ -20,7 +20,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-                <a class="nav-link active" aria-current="page" href="segitiga.php">Segitiga</a>
+                <a class="nav-link active" aria-current="page" href="countword.php">Count-word</a>
+                <a class="nav-link active" aria-current="page" href="segitiga.php">Triangle</a>
             </div>
             </div>
         </div>
